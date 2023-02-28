@@ -207,6 +207,12 @@ header .fa-chevron-down {
   background-color: rgba(0, 0, 0, 0.7);
   z-index: -5;
 }
+.aboutus-hero .checkbox-ai {
+  transition: color 0.8s;
+}
+.aboutus-hero .checkbox-ai:hover {
+  color: #039dff;
+}
 .aboutus-hero .aboutus-hero-item {
   margin: 10px 0;
 }
