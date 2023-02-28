@@ -114,7 +114,7 @@ header p {
 header .hero-img {
   position: relative;
   height: 100vh;
-  background-image: url("../img/header-mini.jpg");
+  background-image: url("../img/monitor-g704ec5a68_640.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -419,7 +419,7 @@ header .fa-chevron-down {
 }
 @media (min-width: 1200px) {
   header .hero-img {
-    background-image: url("../img/header-big.jpg");
+    background-image: url("../img/monitor-g742f72a16_1920.jpg");
   }
 }
 @media (min-width: 1240px) {
