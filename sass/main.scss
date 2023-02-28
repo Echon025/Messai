@@ -65,29 +65,6 @@ nav {
 		color: $main-color;
 	}
 }
-.talk-to-ai {
-	width: 25rem;
-	height: 6rem;
-	resize: none;
-	background-color: rgba(0, 0, 0, 0.8);
-	color: white;
-	margin-bottom: 0;
-}
-.btn-ai {
-	position: relative;
-
-	transform: translate(-50%);
-	margin: auto;
-	display: inline-block;
-	align-items: center;
-	justify-content: center;
-}
-
-.talk-to-ai:hover {
-	background-color: rgba(0, 0, 0, 0.8);
-	color: white;
-}
-
 header {
 	color: $white;
 
@@ -166,7 +143,9 @@ header {
 		color: $main-color;
 	}
 }
-
+.ti-brand-facebook {
+	color: royalblue;
+}
 .aboutus-hero {
 	position: relative;
 	background-image: url('../img/about-hero-small.jpg');
@@ -185,16 +164,8 @@ header {
 		z-index: -5;
 	}
 
-	.checkbox-ai {
-		transition: color 0.8s;
-	}
-
-	.checkbox-ai:hover {
-		color: $main-color;
-	}
-
 	.aboutus-hero-item {
-		margin: 10px 0;
+		margin: 0 auto;
 
 		i {
 			font-size: 36px;
@@ -366,7 +337,7 @@ header {
 		background-color: rgba(0, 9, 27, 0.85);
 		z-index: -5;
 	}
-
+	
 	.contact-us {
 		display: flex;
 		align-items: center;
@@ -383,12 +354,25 @@ header {
 
 			.social-media {
 				font-size: 26px;
-
-				a {
-					padding: 10px;
-					color: $white;
-				}
-
+                a {
+                    padding: 10px;
+                    color: $white;
+                    text-decoration: none;
+                }
+                .sig {
+                    margin-left: -10px;
+                    color: royalblue;
+                }
+                .sig:hover{
+                    color: $white;
+                }
+                .eur{
+                    margin-left: -5px;
+                    color: tomato;
+                }
+                .eur:hover{
+                    color: $white;
+                }
 				a:hover {
 					color: $light-gray;
 				}
@@ -396,7 +380,25 @@ header {
 		}
 	}
 }
+.talk-to-ai {
+	width: 25rem;
+	height: 6rem;
+	resize: none;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+   
+}
+.talk-to-ai:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+}
+.checkbox-ai {
+    transition: color 0.8s;
+}
 
+.checkbox-ai:hover {
+    color: $main-color;
+}
 @media (min-width: 375px) {
 	header {
 		h1 {
@@ -459,8 +461,4 @@ header {
 		margin-bottom: 0;
 	}
 }
-.btn-ai {
-	position: relative;
-	left: 50rem;
-	transform: translate(-50%);
-}
+

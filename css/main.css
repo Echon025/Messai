@@ -101,29 +101,6 @@ nav .active {
   color: #039dff;
 }
 
-.talk-to-ai {
-  width: 25rem;
-  height: 6rem;
-  resize: none;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  margin-bottom: 0;
-}
-
-.btn-ai {
-  position: relative;
-  transform: translate(-50%);
-  margin: auto;
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-}
-
-.talk-to-ai:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-}
-
 header {
   color: #fff;
 }
@@ -190,6 +167,10 @@ header .fa-chevron-down {
   color: #039dff;
 }
 
+.ti-brand-facebook {
+  color: royalblue;
+}
+
 .aboutus-hero {
   position: relative;
   background-image: url("../img/about-hero-small.jpg");
@@ -207,14 +188,8 @@ header .fa-chevron-down {
   background-color: rgba(0, 0, 0, 0.7);
   z-index: -5;
 }
-.aboutus-hero .checkbox-ai {
-  transition: color 0.8s;
-}
-.aboutus-hero .checkbox-ai:hover {
-  color: #039dff;
-}
 .aboutus-hero .aboutus-hero-item {
-  margin: 10px 0;
+  margin: 0 auto;
 }
 .aboutus-hero .aboutus-hero-item i {
   font-size: 36px;
@@ -374,9 +349,45 @@ header .fa-chevron-down {
 .contact .contact-us .contact-item .social-media a {
   padding: 10px;
   color: #fff;
+  text-decoration: none;
+}
+.contact .contact-us .contact-item .social-media .sig {
+  margin-left: -10px;
+  color: royalblue;
+}
+.contact .contact-us .contact-item .social-media .sig:hover {
+  color: #fff;
+}
+.contact .contact-us .contact-item .social-media .eur {
+  margin-left: -5px;
+  color: tomato;
+}
+.contact .contact-us .contact-item .social-media .eur:hover {
+  color: #fff;
 }
 .contact .contact-us .contact-item .social-media a:hover {
   color: #ddd;
+}
+
+.talk-to-ai {
+  width: 25rem;
+  height: 6rem;
+  resize: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.talk-to-ai:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.checkbox-ai {
+  transition: color 0.8s;
+}
+
+.checkbox-ai:hover {
+  color: #039dff;
 }
 
 @media (min-width: 375px) {
@@ -425,9 +436,4 @@ header .fa-chevron-down {
     color: white;
     margin-bottom: 0;
   }
-}
-.btn-ai {
-  position: relative;
-  left: 50rem;
-  transform: translate(-50%);
 }/*# sourceMappingURL=main.css.map */
