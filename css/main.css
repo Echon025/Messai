@@ -238,4 +238,19 @@ header .btn-outline-light {
 
 .btn-outline-secondary, .btn-list {
   border-radius: 1.5rem;
+}
+
+@media (max-width: 540px) {
+  .btn-submit {
+    width: 40%;
+    margin-top: 2%;
+    margin-right: 5%;
+    border-radius: 1.5rem;
+  }
+  .btn-reset {
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 1.5rem;
+  }
 }/*# sourceMappingURL=main.css.map */
