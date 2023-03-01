@@ -35,7 +35,7 @@ nav {
 
 	a,
 	i {
-		color: $white;
+		color: $black;
 	}
 
 	a:hover {
@@ -60,7 +60,7 @@ nav {
 }
 
 header {
-	color: $white;
+	color: $black;
 	
 	h1 {
 		font-size: 30px;
@@ -75,7 +75,7 @@ header {
 	.hero-img {
 		position: relative;
 		height: 93.6vh;
-		background-color: $white;
+		background-color: $black;
 		z-index: 0;
 	}
 

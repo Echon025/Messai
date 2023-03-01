@@ -75,7 +75,7 @@ nav .prices .price-info {
 }
 nav a,
 nav i {
-  color: #fff;
+  color: black;
 }
 nav a:hover {
   color: #039dff;
@@ -95,7 +95,7 @@ nav .active {
 }
 
 header {
-  color: #fff;
+  color: black;
 }
 header h1 {
   font-size: 30px;
@@ -107,7 +107,7 @@ header p {
 header .hero-img {
   position: relative;
   height: 93.6vh;
-  background-color: #fff;
+  background-color: black;
   z-index: 0;
 }
 header .hero-shadow {
