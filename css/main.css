@@ -84,7 +84,8 @@ nav i {
 nav a:hover {
   color: #039dff;
 }
-nav a:hover i, nav a:hover .checkbox-btn {
+nav a:hover i,
+nav a:hover .checkbox-btn {
   color: #039dff;
 }
 nav .fa-bars {
@@ -236,7 +237,8 @@ header .btn-outline-light {
   text-transform: uppercase;
 }
 
-.btn-outline-secondary, .btn-list {
+.btn-outline-secondary,
+.btn-list {
   border-radius: 1.5rem;
 }
 

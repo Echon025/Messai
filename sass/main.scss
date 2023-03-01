@@ -32,7 +32,6 @@ nav {
 	transition: background-color 0.6s;
 	z-index: 1;
 	height: 82px;
-
 	.prices {
 		.price-info {
 			font-size: 18px;
@@ -44,9 +43,10 @@ nav {
 		color: $white;
 	}
 
-	a:hover{
+	a:hover {
 		color: $main-color;
-		i, .checkbox-btn{
+		i,
+		.checkbox-btn {
 			color: $main-color;
 		}
 	}
@@ -62,13 +62,10 @@ nav {
 	.active {
 		color: $main-color;
 	}
-	
 }
-
 
 header {
 	color: $white;
-
 	h1 {
 		font-size: 30px;
 		text-transform: uppercase;
@@ -115,19 +112,19 @@ header {
 	background-color: rgba(0, 0, 0, 0.8);
 	color: white;
 }
-.form-control{
+.form-control {
 	transition: 0.5s;
 }
-.talk-to-ai:hover{
+.talk-to-ai:hover {
 	background-color: rgba(0, 0, 0, 0.8);
 	color: white;
 }
 .checkbox-ai {
-    transition: color 0.8s;
+	transition: color 0.8s;
 }
 
-.checkbox-ai:hover{
-    color: $main-color;
+.checkbox-ai:hover {
+	color: $main-color;
 }
 @media (min-width: 375px) {
 	header {
@@ -169,61 +166,61 @@ header {
 		color: white;
 	}
 }
-.form-center{
+.form-center {
 	display: flex;
 	margin: auto;
 	align-items: center;
 }
-.form{
-	position:relative;
+.form {
+	position: relative;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 }
-.btn-center{
+.btn-center {
 	margin: auto;
 	align-items: center;
 }
-.btn-submit{
+.btn-submit {
 	width: 15%;
 	margin-top: 2%;
 	margin-right: 5%;
 	border-radius: 1.5rem;
 }
-.btn-reset{
+.btn-reset {
 	width: 15%;
 	margin-top: 2%;
 	margin-left: 1%;
 	border-radius: 1.5rem;
 }
-.btn-list{
+.btn-list {
 	background-color: rgba(0, 0, 0, 0.8);
-	li a{
+	li a {
 		color: white;
 	}
 }
-	.search-span{
+.search-span {
 	margin-top: 0%;
 	margin-left: 10%;
 	text-align: center;
 	color: royalblue;
 	text-transform: uppercase;
 }
-.btn-outline-secondary, .btn-list{
+.btn-outline-secondary,
+.btn-list {
 	border-radius: 1.5rem;
 }
-@media (max-width: 540px){
-	.btn-submit{
+@media (max-width: 540px) {
+	.btn-submit {
 		width: 40%;
 		margin-top: 2%;
 		margin-right: 5%;
 		border-radius: 1.5rem;
 	}
-	.btn-reset{
+	.btn-reset {
 		width: 40%;
 		margin-top: 2%;
 		margin-left: 1%;
 		border-radius: 1.5rem;
+	}
 }
-}
-
