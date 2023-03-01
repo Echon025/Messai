@@ -18,65 +18,92 @@
 </head>
 
 <body>
-    <header id="home">
-        <div class="hero-img">
+    <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 py-3">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="ti ti-menu-2"></i>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active">
+                        <input class="form-check-input mt-1 checkbox-btn" type="checkbox" value=""
+                            aria-label="Checkbox for following text input">
+                        Chat GPT <i class="ti ti-brand-openai"></i></a>
+                    <a class="nav-link">
+                        <input class="form-check-input mt-1 checkbox-btn" type="checkbox" value=""
+                            aria-label="Checkbox for following text input">
+                        Dalle-2
+                        <i class="ti ti-brand-openai"></i></a>
+                    <a class="nav-link">
+                        <input class="form-check-input mt-1 checkbox-btn" type="checkbox" value=""
+                            aria-label="Checkbox for following text input"> midjourney <i class="ti ti-ship"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header id="home" class="mb-0 py-0">
+        <div class="hero-img mb-0">
             <div class="hero-shadow"></div>
             <div class="hero-text">
-                <h1 data-aos="fade-up" data-aos-delay="800">mess<span class="blue-text">AI</span></h1>
-                <p data-aos="fade-up" data-aos-delay="800"></p>
-                <section class="aboutus-hero py-4">
+                <h1 data-aos="fade-up" data-aos-delay="200">mess<span class="blue-text">AI</span></h1>
+                <p data-aos="fade-up" data-aos-delay="200"></p>
+                <section class="aboutus-hero">
 
                     <div class="aboutus-shadow"></div>
-                    <div class="container py-4">
-                                <div class="form-center">
-                                    <form class="form">
-                                        <div class="input-group ">
-                                            <button type="submit" class="btn btn-outline-secondary talk-to-ai"><i
-                                                    class="ti ti-search"></i></button>
-                                            <input type="text" class="btn-outline-secondary form-control talk-to-ai "
-                                                aria-label="Text input with segmented dropdown button">
-                                            <button type="button"
-                                                class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split talk-to-ai "
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                            </button>
-                                            <ul class="dropdown-menu dropdown-menu-end  btn-list">
-                                                <li><hr class="dropdown-divider"><span class="search-span">search engine</span></li> 
-                                                <li><a class="dropdown-item" href="#https://www.google.com">Google</a></li>
-                                                <li><a class="dropdown-item" href="#https://www.bing.com">Bing</a></li>
-                                                <li><a class="dropdown-item" href="#https://www.yahoo.com">Yahoo!</a></li>
-                                                <li><a class="dropdown-item" href="#https://duckduckgo.com">DuckDuckGo</a></li>
-                                                <li><a class="dropdown-item" href="#https://yandex.com">YANDEX</a></li>
-                                                <li><a class="dropdown-item" href="#https://www.ecosia.org">Ecosia</a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- <textarea class="talk-to-ai btn-outline-light" id="message" name="message"></textarea> -->
+                    <div class="container">
+                        <div class="form-center">
+                            <form class="form">
+                                <div class="input-group mb-0">
+                                    <button type="submit" class="btn btn-outline-secondary talk-to-ai"><i
+                                            class="ti ti-search"></i></button>
+                                    <input type="text" class="btn-outline-secondary form-control talk-to-ai "
+                                        aria-label="Text input with segmented dropdown button">
+                                    <button type="button"
+                                        class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split talk-to-ai "
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-end  btn-list">
+                                        <li>
+                                            <hr class="dropdown-divider"><span class="search-span">search engine</span>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#https://www.google.com">Google</a></li>
+                                        <li><a class="dropdown-item" href="#https://www.bing.com">Bing</a></li>
+                                        <li><a class="dropdown-item" href="#https://www.yahoo.com">Yahoo!</a></li>
+                                        <li><a class="dropdown-item" href="#https://duckduckgo.com">DuckDuckGo</a></li>
+                                        <li><a class="dropdown-item" href="#https://yandex.com">YANDEX</a></li>
+                                        <li><a class="dropdown-item" href="#https://www.ecosia.org">Ecosia</a></li>
+                                    </ul>
                                 </div>
-                                <p data-aos="fade-up" data-aos-delay="200"></p>
-                                <div class="form-center">
-                                    <button data-aos="fade-up" data-aos-delay="600"
-                                        class="btn-center btn-submit btn btn-outline-light" type="submit">Submit</button>
-                                    <button data-aos="fade-up" data-aos-delay="600"
-                                        class="btn-center btn-reset btn btn-outline-light" type="reset">Reset</button>
-                                    </form>
-            
-                                </div>
-            
-            
-                            </div>
-            
-                           
+                                <!-- <textarea class="talk-to-ai btn-outline-light" id="message" name="message"></textarea> -->
                         </div>
+                        <p data-aos="fade-up" data-aos-delay="200"></p>
+                        <div class="form-center">
+                            <button data-aos="fade-up" data-aos-delay="400"
+                                class="btn-center btn-submit btn btn-outline-light" type="submit">Submit</button>
+                            <button data-aos="fade-up" data-aos-delay="400"
+                                class="btn-center btn-reset btn btn-outline-light" type="reset">Reset</button>
+                            </form>
+
+                        </div>
+
+
                     </div>
-                    
-                </section>
-               
+
+
             </div>
-        </header>
-    </div>
-            </div>
-            <footer class="bg-dark text-light py-4 text-center">
-                <p class="mb-0"> &copy; 2023 | MessAI</p>
+            <footer class="bg-dark text-light mb-0 py-3 text-center">
+                <p class="mb-0"> &copy; 2023 | Mess<span class="blue-text">AI</span></p>
             </footer>
+        </div>
+
+        </section>
+
+        </div>
+    </header>
+    </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
         </script>
