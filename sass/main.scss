@@ -22,11 +22,6 @@ h2 {
 .blue-text {
 	color: $main-color;
 }
-
-.shadow-bg {
-	background-color: rgba(0, 0, 0, 0.8);
-}
-
 nav {
 	text-transform: uppercase;
 	transition: background-color 0.6s;
@@ -79,9 +74,6 @@ header {
 		position: relative;
 		height: 93.6vh;
 		background-color: $white;
-		background-position: center;
-		background-size: cover;
-		background-attachment: fixed;
 		z-index: 0;
 	}
 
@@ -89,7 +81,7 @@ header {
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.8);
+		background-color: gray;
 		z-index: -10;
 	}
 
@@ -109,20 +101,16 @@ header {
 }
 .talk-to-ai {
 	resize: none;
-	background-color: rgba(0, 0, 0, 0.8);
-	color: white;
 }
 .form-control {
 	transition: 0.5s;
 }
-.talk-to-ai:hover {
-	background-color: rgba(0, 0, 0, 0.8);
-	color: white;
-}
 .checkbox-ai {
 	transition: color 0.8s;
 }
-
+.btn-outline-light{
+	background-color: grey;
+}
 .checkbox-ai:hover {
 	color: $main-color;
 }
@@ -160,12 +148,6 @@ header {
 		}
 	}
 }
-@media (min-width: 1240px) {
-	.talk-to-ai {
-		background-color: rgba(0, 0, 0, 0.8);
-		color: white;
-	}
-}
 .form-center {
 	display: flex;
 	margin: auto;
@@ -200,19 +182,7 @@ header {
 	margin-left: 1%;
 	border-radius: 1.5rem;
 }
-.btn-list {
-	background-color: rgba(0, 0, 0, 0.8);
-	li a {
-		color: white;
-	}
-}
-.search-span {
-	margin-top: 0%;
-	margin-left: 10%;
-	text-align: center;
-	color: royalblue;
-	text-transform: uppercase;
-}
+
 .btn-outline-secondary,
 .btn-list {
 	border-radius: 1.5rem;
@@ -234,7 +204,6 @@ header {
 .menu {
 	margin-left: 90%;
 	margin-top: 1%;
-	
 }
 .ti-menu-2{
  font-size: 300%;

@@ -64,10 +64,6 @@ h2 {
   color: #039dff;
 }
 
-.shadow-bg {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
 nav {
   text-transform: uppercase;
   transition: background-color 0.6s;
@@ -112,16 +108,13 @@ header .hero-img {
   position: relative;
   height: 93.6vh;
   background-color: #fff;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
   z-index: 0;
 }
 header .hero-shadow {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: gray;
   z-index: -10;
 }
 header .hero-text {
@@ -139,21 +132,18 @@ header .btn-outline-light {
 
 .talk-to-ai {
   resize: none;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
 }
 
 .form-control {
   transition: 0.5s;
 }
 
-.talk-to-ai:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-}
-
 .checkbox-ai {
   transition: color 0.8s;
+}
+
+.btn-outline-light {
+  background-color: grey;
 }
 
 .checkbox-ai:hover {
@@ -182,12 +172,6 @@ header .btn-outline-light {
   }
   .prices .price-info {
     font-size: 18px;
-  }
-}
-@media (min-width: 1240px) {
-  .talk-to-ai {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
   }
 }
 .form-center {
@@ -228,21 +212,6 @@ header .btn-outline-light {
   margin-top: 2%;
   margin-left: 1%;
   border-radius: 1.5rem;
-}
-
-.btn-list {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.btn-list li a {
-  color: white;
-}
-
-.search-span {
-  margin-top: 0%;
-  margin-left: 10%;
-  text-align: center;
-  color: royalblue;
-  text-transform: uppercase;
 }
 
 .btn-outline-secondary,
