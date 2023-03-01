@@ -43,8 +43,11 @@ nav {
 		color: $white;
 	}
 
-	a:hover {
+	a:hover{
 		color: $main-color;
+		i, .checkbox-btn{
+			color: $main-color;
+		}
 	}
 
 	.fa-bars {

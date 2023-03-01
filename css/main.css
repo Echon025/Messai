@@ -84,6 +84,9 @@ nav i {
 nav a:hover {
   color: #039dff;
 }
+nav a:hover i, nav a:hover .checkbox-btn {
+  color: #039dff;
+}
 nav .fa-bars {
   padding: 10px;
 }
