@@ -263,4 +263,12 @@ header .btn-outline-light {
     margin-left: 1%;
     border-radius: 1.5rem;
   }
+}
+.menu {
+  margin-left: 90%;
+  margin-top: 1%;
+}
+
+.ti-menu-2 {
+  font-size: 300%;
 }/*# sourceMappingURL=main.css.map */
