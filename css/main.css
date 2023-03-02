@@ -249,6 +249,9 @@ header .btn-outline-light {
     margin-left: 87%;
     font-size: 87%;
   }
+  .button-size {
+    font-size: 100%;
+  }
 }
 @media (max-width: 1600px) {
   .menu {
@@ -267,16 +270,19 @@ header .btn-outline-light {
     margin-left: 70%;
     font-size: 70%;
   }
+  .button-size {
+    font-size: 90%;
+  }
 }
 @media (max-width: 600px) {
   .menu {
-    margin-left: 60%;
+    margin-left: 70%;
     font-size: 60%;
   }
 }
 @media (max-width: 600px) and (max-width: 400px) {
   .menu {
-    margin-left: 50%;
+    margin-left: 65%;
     font-size: 60%;
   }
 }
