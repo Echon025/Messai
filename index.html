@@ -19,27 +19,51 @@
 </head>
 
 <body>
-    <nav id="navbar" class="navbar bg-body-tertiary position-fixed start-1 top-0 py-3 menu">
+    <nav id="navbar" class="navbar bg-body-tertiary position-fixed start-1 top-0 py-1 menu">
         <div class="container">
-            <button class="navbar-toggler size-text" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-               <i class="ti ti-menu-2 "></i>
+            <button class="navbar-toggler size-text" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="ti ti-menu-2 "></i>
             </button>
             <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link">
+                    <ul class="btn-list mb-3 py-4 p-1 list-none">
+                        <a class="nav-link">
                         <input class="form-check-input mt-1 checkbox-btn" type="checkbox" value=""
                             aria-label="Checkbox for following text input">
-                        Chat GPT <i class="ti ti-brand-openai"></i></a>
+                        Chat GPT <i class="ti ti-brand-openai"></i></a> </span>
+                        <hr class="dropdown-divider"><span class="search-span">
+                        <li><input class="form-check-input mt-1 checkbox-btn ms-5 m-1" type="checkbox" value=""
+                            aria-label="Checkbox for following text input" href="#">option 1</li>
+                            <li><input class="form-check-input mt-1 checkbox-btn ms-5 m-1" type="checkbox" value=""
+                                aria-label="Checkbox for following text input" href="#">option 2</li>
+                                <li><input class="form-check-input mt-1 checkbox-btn ms-5 m-1" type="checkbox" value=""
+                                    aria-label="Checkbox for following text input" href="#">option 3</li>
+                        
                     <a class="nav-link">
                         <input class="form-check-input mt-1 checkbox-btn" type="checkbox" value=""
                             aria-label="Checkbox for following text input">
                         Dalle-2
                         <i class="ti ti-brand-openai"></i></a>
+                        <hr class="dropdown-divider"><span class="search-span">
+                            <li><input class="form-check-input mt-1 checkbox-btn ms-5 m-1" type="checkbox" value=""
+                                aria-label="Checkbox for following text input" href="#">option 1</li>
+                                <li><input class="form-check-input mt-1 checkbox-btn ms-5 m-1" type="checkbox" value=""
+                                    aria-label="Checkbox for following text input" href="#">option 2</li>
+                                    <li><input class="form-check-input mt-1 checkbox-btn ms-5 m-1" type="checkbox" value=""
+                                        aria-label="Checkbox for following text input" href="#">option 3</li>
                     <a class="nav-link">
                         <input class="form-check-input mt-1 checkbox-btn" type="checkbox" value=""
                             aria-label="Checkbox for following text input"> midjourney <i class="ti ti-ship"></i></a>
-
+                            <hr class="dropdown-divider"><span class="search-span">
+                                <li><input class="form-check-input mt-1 checkbox-btn ms-5 m-1" type="checkbox" value=""
+                                    aria-label="Checkbox for following text input" href="#">option 1</li>
+                                    <li><input class="form-check-input mt-1 checkbox-btn ms-5 m-1" type="checkbox" value=""
+                                        aria-label="Checkbox for following text input" href="#">option 2</li>
+                                        <li><input class="form-check-input mt-1 checkbox-btn ms-5 m-1" type="checkbox" value=""
+                                            aria-label="Checkbox for following text input" href="#">option 3</li>
+                        </ul>
                 </div>
             </div>
         </div>
@@ -57,9 +81,11 @@
                         <div class="form-center">
                             <form class="form">
                                 <div class="input-group mb-0">
-                                    <button type="submit" class="btn btn-outline-secondary mb-3 btn btn-outline-light"><i
+                                    <button type="submit"
+                                        class="btn btn-outline-secondary mb-3 btn btn-outline-light"><i
                                             class="ti ti-search"></i></button>
-                                    <input type="text" class="btn-outline-secondary form-control btn btn-outline-light  mb-3 py-3"
+                                    <input type="text"
+                                        class="btn-outline-secondary form-control btn btn-outline-light  mb-3 py-3"
                                         aria-label="Text input with segmented dropdown button">
                                     <!-- <button type="button"
                                         class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split talk-to-ai mb-3"
@@ -77,28 +103,30 @@
                                         <li><a class="dropdown-item" href="#https://www.ecosia.org">Ecosia</a></li>
                                     </ul> -->
                                 </div>
-                            </div>
-                            <p data-aos="fade-up" data-aos-delay="200"></p>
-                            <div class="form-center">
-                                <button data-aos="fade-up" data-aos-delay="400" 
-                                class="btn-center btn-submit btn btn-outline-light" type="submit"><span class="btn-text">Submit</span></button> 
-                                <button data-aos="fade-up" data-aos-delay="400"
-                                class="btn-center btn-reset btn btn-outline-light" type="reset"><span class="btn-text">Reset</span></button>
-                            </form>
-                            
                         </div>
-                        
-                        
+                        <p data-aos="fade-up" data-aos-delay="200"></p>
+                        <div class="form-center">
+                            <button data-aos="fade-up" data-aos-delay="400"
+                                class="btn-center btn-submit btn btn-outline-light" type="submit"><span
+                                    class="btn-text">Submit</span></button>
+                            <button data-aos="fade-up" data-aos-delay="400"
+                                class="btn-center btn-reset btn btn-outline-light" type="reset"><span
+                                    class="btn-text">Reset</span></button>
+                            </form>
+
+                        </div>
+
+
                     </div>
-                    
-                    
+
+
                     <!-- <textarea class="talk-to-ai btn-outline-light text-ai py-2 form" id="message" name="message"></textarea> -->
-                </div>
-           
-            <footer class="bg-dark text-light mb-0 py-3 text-center footer-text">
-                <p class="mb-0"> &copy; 2023 | Mess<span class="blue-text">AI</span></p> 
+            </div>
+
+            <footer class="bg-dark text-light mb-0 py-0 text-center footer-text">
+                <p class="mb-0"> &copy; 2023 | Mess<span class="blue-text">AI</span></p>
             </footer>
-            
+
         </div>
 
         </section>
