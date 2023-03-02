@@ -154,30 +154,6 @@ header .btn-outline-light {
   color: #039dff;
 }
 
-@media (min-width: 375px) {
-  header h1 {
-    font-size: 36px;
-  }
-  header p {
-    font-size: 16px;
-  }
-}
-@media (min-width: 768px) {
-  header h1 {
-    font-size: 42px;
-  }
-  header p {
-    font-size: 20px;
-  }
-}
-@media (min-width: 992px) {
-  nav {
-    height: 82px;
-  }
-  .prices .price-info {
-    font-size: 18px;
-  }
-}
 .form-center {
   display: flex;
   margin: auto;
@@ -225,6 +201,11 @@ header .btn-outline-light {
   border-radius: 1.5rem;
 }
 
+.menu {
+  margin-left: 90%;
+  margin-top: 1%;
+}
+
 @media (max-width: 540px) {
   .btn-submit {
     width: 40%;
@@ -239,11 +220,30 @@ header .btn-outline-light {
     border-radius: 1.5rem;
   }
 }
-.menu {
-  margin-left: 90%;
-  margin-top: 1%;
+@media (min-width: 375px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
 }
-
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 42px;
+  }
+  header p {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  nav {
+    height: 82px;
+  }
+  .prices .price-info {
+    font-size: 18px;
+  }
+}
 @media (max-width: 1700px) {
   .menu {
     margin-left: 87%;
@@ -328,4 +328,10 @@ header .btn-outline-light {
 .span-tyle {
   background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
   border-radius: 15%;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  top: -2.8%;
 }/*# sourceMappingURL=main.css.map */

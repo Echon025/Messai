@@ -126,40 +126,7 @@ header {
 .checkbox-ai:hover {
 	color: $main-color;
 }
-@media (min-width: 375px) {
-	header {
-		h1 {
-			font-size: 36px;
-		}
 
-		p {
-			font-size: 16px;
-		}
-	}
-}
-
-@media (min-width: 768px) {
-	header {
-		h1 {
-			font-size: 42px;
-		}
-
-		p {
-			font-size: 20px;
-		}
-	}
-}
-
-@media (min-width: 992px) {
-	nav {
-		height: 82px;
-	}
-	.prices {
-		.price-info {
-			font-size: 18px;
-		}
-	}
-}
 .form-center {
 	display: flex;
 	margin: auto;
@@ -201,6 +168,11 @@ header {
 .btn-list {
 	border-radius: 1.5rem;
 }
+
+.menu {
+	margin-left: 90%;
+	margin-top: 1%;
+}
 @media (max-width: 540px) {
 	.btn-submit {
 		width: 40%;
@@ -215,16 +187,46 @@ header {
 		border-radius: 1.5rem;
 	}
 }
-.menu {
-	margin-left: 90%;
-	margin-top: 1%;
+@media (min-width: 375px) {
+	header {
+		h1 {
+			font-size: 36px;
+		}
+
+		p {
+			font-size: 16px;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	header {
+		h1 {
+			font-size: 42px;
+		}
+
+		p {
+			font-size: 20px;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	nav {
+		height: 82px;
+	}
+	.prices {
+		.price-info {
+			font-size: 18px;
+		}
+	}
 }
 @media (max-width: 1700px) {
 	.menu {
 		margin-left: 87%;
 		font-size: 87%;
 	}
-	.button-size{
+	.button-size {
 		font-size: 100%;
 	}
 }
@@ -245,7 +247,7 @@ header {
 		margin-left: 70%;
 		font-size: 70%;
 	}
-	.button-size{
+	.button-size {
 		font-size: 90%;
 	}
 }
@@ -336,4 +338,9 @@ header {
 		#bcbcbc 100%
 	);
 	border-radius: 15%;
+}
+footer{
+	position: relative;
+	width: 100%;
+	top: -2.8%;
 }
