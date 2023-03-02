@@ -23,10 +23,12 @@ h2 {
 	color: $main-color;
 }
 nav {
+	display: flex;
+	flex-direction: row-reverse;
 	text-transform: uppercase;
 	transition: background-color 0.6s;
 	z-index: 1;
-	height: 82px;
+	height: 42px;
 	.prices {
 		.price-info {
 			font-size: 18px;
@@ -73,7 +75,7 @@ header {
 
 	.hero-img {
 		position: relative;
-		height: 96.3vh;
+		height: 94.5vh;
 		background-color: $black;
 		z-index: 0;
 	}
@@ -143,8 +145,7 @@ header {
 	margin: auto;
 }
 .text-hidden {
-
-	@keyframes example{
+	@keyframes example {
 		from {
 			opacity: 0;
 		}
@@ -190,13 +191,32 @@ header {
 .btn-list {
 	border-radius: 1.5rem;
 }
-
-.menu {
-	margin-left: 89%;
-	margin-top: 1%;
+.button-size {
+	margin: auto;
+	margin-left: 80%;
+	background-image: linear-gradient(
+		to bottom,
+		lightgrey 0%,
+		lightgrey 1%,
+		#e0e0e0 26%,
+		#efefef 48%,
+		#d9d9d9 75%,
+		#bcbcbc 100%
+	);
+}
+.bgc-menu{
+	background-image: linear-gradient(
+		to bottom,
+		lightgrey 0%,
+		lightgrey 1%,
+		#e0e0e0 26%,
+		#efefef 48%,
+		#d9d9d9 75%,
+		#bcbcbc 100%
+	);
 }
 .ti-menu-2 {
-	font-size: 300%;
+	font-size: 80%;
 }
 .list-none {
 	list-style-type: none;
@@ -237,6 +257,13 @@ header {
 		#bcbcbc 100%
 	);
 }
+nav {
+	font-size: 80%;
+	position: relative;
+	margin-top: 2%;
+	right: 2%;
+}
+
 .button-style-log {
 	position: relative;
 	left: 0.3%;
@@ -294,64 +321,6 @@ footer {
 	}
 }
 
-@media (min-width: 992px) {
-	nav {
-		height: 82px;
-	}
-	.prices {
-		.price-info {
-			font-size: 18px;
-		}
-	}
-}
-@media (max-width: 1700px) {
-	.menu {
-		margin-left: 87%;
-		font-size: 87%;
-	}
-	.button-size {
-		font-size: 100%;
-	}
-}
-@media (max-width: 1600px) {
-	.menu {
-		margin-left: 85%;
-		font-size: 85%;
-	}
-}
-@media (max-width: 1300px) {
-	.menu {
-		margin-left: 80%;
-		font-size: 80%;
-	}
-}
-@media (max-width: 900px) {
-	.menu {
-		margin-left: 70%;
-		font-size: 70%;
-	}
-	.button-size {
-		font-size: 90%;
-	}
-}
-@media (max-width: 600px) {
-	.menu {
-		margin-left: 70%;
-		font-size: 60%;
-	}
-	@media (max-width: 400px) {
-		.menu {
-			margin-left: 65%;
-			font-size: 60%;
-		}
-	}
-	@media (max-width: 350px) {
-		.menu {
-			margin-left: 40%;
-			font-size: 60%;
-		}
-	}
-}
 @media (max-width: 540px) {
 	.btn-submit {
 		width: 40%;
@@ -366,3 +335,52 @@ footer {
 		border-radius: 1.5rem;
 	}
 }
+
+// @media (max-width: 1700px) {
+// 	.menu {
+// 		margin-left: 87%;
+// 		font-size: 87%;
+// 	}
+// 	.button-size {
+// 		font-size: 100%;
+// 	}
+// }
+// @media (max-width: 1600px) {
+// 	.menu {
+// 		margin-left: 85%;
+// 		font-size: 85%;
+// 	}
+// }
+// @media (max-width: 1300px) {
+// 	.menu {
+// 		margin-left: 80%;
+// 		font-size: 80%;
+// 	}
+// }
+// @media (max-width: 900px) {
+// 	.menu {
+// 		margin-left: 70%;
+// 		font-size: 70%;
+// 	}
+// 	.button-size {
+// 		font-size: 90%;
+// 	}
+// }
+// @media (max-width: 600px) {
+// 	.menu {
+// 		margin-left: 70%;
+// 		font-size: 60%;
+// 	}
+// 	@media (max-width: 400px) {
+// 		.menu {
+// 			margin-left: 65%;
+// 			font-size: 60%;
+// 		}
+// 	}
+// 	@media (max-width: 350px) {
+// 		.menu {
+// 			margin-left: 40%;
+// 			font-size: 60%;
+// 		}
+// 	}
+// }
