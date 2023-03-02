@@ -244,10 +244,77 @@ header .btn-outline-light {
   margin-top: 1%;
 }
 
+@media (max-width: 1700px) {
+  .menu {
+    margin-left: 87%;
+    font-size: 85%;
+  }
+}
+@media (max-width: 1600px) {
+  .menu {
+    margin-left: 85%;
+    font-size: 85%;
+  }
+}
+@media (max-width: 1300px) {
+  .menu {
+    margin-left: 80%;
+  }
+}
+@media (max-width: 900px) {
+  .menu {
+    margin-left: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .menu {
+    margin-left: 60%;
+  }
+}
+@media (max-width: 600px) and (max-width: 400px) {
+  .menu {
+    margin-left: 50%;
+  }
+}
+@media (max-width: 600px) and (max-width: 350px) {
+  .menu {
+    margin-left: 40%;
+  }
+}
 .ti-menu-2 {
   font-size: 300%;
 }
 
 .list-none {
   list-style-type: none;
+}
+
+.sign-in {
+  width: 100%;
+  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+.style-btn {
+  width: 100%;
+  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+.button-style-log {
+  color: black;
+  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+.button-style-log {
+  position: relative;
+  left: 0.3%;
+  text-transform: uppercase;
+}
+
+.style-btn-ul {
+  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+.span-tyle {
+  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  border-radius: 15%;
 }/*# sourceMappingURL=main.css.map */
