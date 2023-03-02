@@ -244,7 +244,7 @@ nav {
 	right: 2%;
 }
 .bgc-menu {
-	border: #bcbcbc 2px solid;
+	border: #bcbcbc 0px solid;
 	border-radius: 2rem;
 	background-image: linear-gradient(
 		to bottom,
@@ -255,6 +255,9 @@ nav {
 		#d9d9d9 75%,
 		#bcbcbc 100%
 	);
+}
+.styl-chbox{
+	border: #bcbcbc 2px solid;
 }
 .button-style-log {
 	position: relative;
