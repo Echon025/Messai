@@ -222,7 +222,8 @@ header {
 @media (max-width: 1700px) {
 	.menu {
 		margin-left: 87%;
-		font-size: 85%;
+		font-size: 87%;
+		
 	}
 }
 @media (max-width: 1600px) {
@@ -234,25 +235,30 @@ header {
 @media (max-width: 1300px) {
 	.menu {
 		margin-left: 80%;
+		font-size: 80%;
 	}
 }
 @media (max-width: 900px) {
 	.menu {
 		margin-left: 70%;
+		font-size: 70%;
 	}
 }
 @media (max-width: 600px) {
 	.menu {
 		margin-left: 60%;
+		font-size: 60%;
 	}
 	@media (max-width: 400px) {
 		.menu {
 			margin-left: 50%;
+			font-size: 60%;
 		}
 	}
 	@media (max-width: 350px) {
 		.menu {
 			margin-left: 40%;
+			font-size: 60%;
 		}
 	}
 }
