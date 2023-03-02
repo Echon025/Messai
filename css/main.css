@@ -154,6 +154,10 @@ header .btn-outline-light {
   color: #039dff;
 }
 
+.styl-chbox:hover {
+  background-color: #039dff;
+}
+
 .form-center {
   display: flex;
   margin: auto;
@@ -220,6 +224,50 @@ header .btn-outline-light {
     border-radius: 1.5rem;
   }
 }
+.ti-menu-2 {
+  font-size: 300%;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.sign-in {
+  width: 100%;
+  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+.style-btn {
+  width: 100%;
+  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+.button-style-log {
+  color: black;
+  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+.button-style-log {
+  position: relative;
+  left: 0.3%;
+  text-transform: uppercase;
+}
+
+.style-btn-ul {
+  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+.span-tyle {
+  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  border-radius: 15%;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  top: -2.8%;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 36px;
@@ -291,47 +339,4 @@ header .btn-outline-light {
     margin-left: 40%;
     font-size: 60%;
   }
-}
-.ti-menu-2 {
-  font-size: 300%;
-}
-
-.list-none {
-  list-style-type: none;
-}
-
-.sign-in {
-  width: 100%;
-  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
-}
-
-.style-btn {
-  width: 100%;
-  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
-}
-
-.button-style-log {
-  color: black;
-  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
-}
-
-.button-style-log {
-  position: relative;
-  left: 0.3%;
-  text-transform: uppercase;
-}
-
-.style-btn-ul {
-  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
-}
-
-.span-tyle {
-  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
-  border-radius: 15%;
-}
-
-footer {
-  position: relative;
-  width: 100%;
-  top: -2.8%;
 }/*# sourceMappingURL=main.css.map */
