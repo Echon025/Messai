@@ -144,16 +144,6 @@ header {
 	flex-direction: column;
 	margin: auto;
 }
-.text-hidden {
-	@keyframes example {
-		from {
-			opacity: 0;
-		}
-		to {
-			opacity: 1;
-		}
-	}
-}
 // .textarea {
 // 	opacity: 0;
 // 	overflow: hidden;
@@ -205,6 +195,8 @@ header {
 	);
 }
 .bgc-menu{
+	border: #bcbcbc 2px solid ;
+	border-radius: 2rem;
 	background-image: linear-gradient(
 		to bottom,
 		lightgrey 0%,
