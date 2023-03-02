@@ -142,12 +142,19 @@ header {
 	flex-direction: column;
 	margin: auto;
 }
-.text-ai {
-	border-radius: 0.7rem;
-	margin-top: 2%;
-	width: 50%;
-	height: 30rem;
-}
+.textarea {
+	opacity: 0;
+	overflow: hidden;
+	padding-top: 2%;
+	width: 70%;
+	height: 100%;
+	font-size: 14px;
+	margin: 2% auto;
+	display: block;
+	border-radius: 10px;
+	color: black;
+	transition: 0.8;
+  }
 .btn-center {
 	margin: auto;
 	align-items: center;
@@ -175,20 +182,6 @@ header {
 .menu {
 	margin-left: 90%;
 	margin-top: 1%;
-}
-@media (max-width: 540px) {
-	.btn-submit {
-		width: 40%;
-		margin-top: 2%;
-		margin-right: 5%;
-		border-radius: 1.5rem;
-	}
-	.btn-reset {
-		width: 40%;
-		margin-top: 2%;
-		margin-left: 1%;
-		border-radius: 1.5rem;
-	}
 }
 
 .ti-menu-2 {
@@ -346,5 +339,19 @@ footer {
 			margin-left: 40%;
 			font-size: 60%;
 		}
+	}
+}
+@media (max-width: 540px) {
+	.btn-submit {
+		width: 40%;
+		margin-top: 2%;
+		margin-right: 5%;
+		border-radius: 1.5rem;
+	}
+	.btn-reset {
+		width: 40%;
+		margin-top: 2%;
+		margin-left: 1%;
+		border-radius: 1.5rem;
 	}
 }
