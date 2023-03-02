@@ -194,19 +194,7 @@ header {
 		#bcbcbc 100%
 	);
 }
-.bgc-menu{
-	border: #bcbcbc 2px solid ;
-	border-radius: 2rem;
-	background-image: linear-gradient(
-		to bottom,
-		lightgrey 0%,
-		lightgrey 1%,
-		#e0e0e0 26%,
-		#efefef 48%,
-		#d9d9d9 75%,
-		#bcbcbc 100%
-	);
-}
+
 .ti-menu-2 {
 	font-size: 80%;
 }
@@ -255,7 +243,19 @@ nav {
 	margin-top: 2%;
 	right: 2%;
 }
-
+.bgc-menu {
+	border: #bcbcbc 2px solid;
+	border-radius: 2rem;
+	background-image: linear-gradient(
+		to bottom,
+		lightgrey 0%,
+		lightgrey 1%,
+		#e0e0e0 26%,
+		#efefef 48%,
+		#d9d9d9 75%,
+		#bcbcbc 100%
+	);
+}
 .button-style-log {
 	position: relative;
 	left: 0.3%;
@@ -327,7 +327,6 @@ footer {
 		border-radius: 1.5rem;
 	}
 }
-
 // @media (max-width: 1700px) {
 // 	.menu {
 // 		margin-left: 87%;
