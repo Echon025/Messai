@@ -204,6 +204,7 @@ header .btn-outline-light {
   margin: auto;
   margin-left: 1%;
   background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  z-index: 5;
 }
 
 .ti-menu-2 {
@@ -230,6 +231,7 @@ nav {
 }
 
 .bgc-menu {
+  position: relative;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   background: #c9ccd3;
@@ -286,6 +288,36 @@ footer {
   }
   header p {
     font-size: 20px;
+  }
+}
+@media (max-width: 1350px) {
+  .bgc-menu {
+    position: relative;
+    top: 20%;
+  }
+}
+@media (max-width: 1150px) {
+  .bgc-menu {
+    position: relative;
+    top: 40%;
+  }
+}
+@media (max-width: 900px) {
+  .bgc-menu {
+    position: relative;
+    top: 60%;
+  }
+}
+@media (max-width: 600px) {
+  .bgc-menu {
+    position: relative;
+    top: 80%;
+  }
+}
+@media (max-width: 350px) {
+  .bgc-menu {
+    position: relative;
+    top: 100%;
   }
 }
 @media (max-width: 770px) {

@@ -168,6 +168,7 @@ header {
 	border-radius: 1.5rem;
 }
 
+
 .button-size {
 	margin: auto;
 	margin-left: 1%;
@@ -180,6 +181,7 @@ header {
 		#d9d9d9 75%,
 		#bcbcbc 100%
 	);
+	z-index: 5;
 }
 
 .ti-menu-2 {
@@ -209,6 +211,7 @@ nav {
 	margin-top: 2%;
 }
 .bgc-menu {
+	position: relative;
 	border-bottom-left-radius: 2rem;
 	border-bottom-right-radius: 2rem;
 	background: #c9ccd3;
@@ -282,7 +285,41 @@ footer {
 		}
 	}
 }
-
+@media (max-width: 1350px) {
+	.bgc-menu{
+		position: relative;
+		top: 20%;
+	}
+	
+}
+@media (max-width: 1150px) {
+	.bgc-menu{
+		position: relative;
+		top: 40%;
+	}
+	
+}
+@media (max-width: 900px) {
+	.bgc-menu{
+		position: relative;
+		top: 60%;
+	}
+	
+}
+@media (max-width: 600px) {
+	.bgc-menu{
+		position: relative;
+		top: 80%;
+	}
+	
+}
+@media (max-width: 350px) {
+	.bgc-menu{
+		position: relative;
+		top: 100%;
+	}
+	
+}
 @media (max-width: 770px) {
 	.btn-submit {
 		width: 40%;
