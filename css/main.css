@@ -108,7 +108,7 @@ header p {
 }
 header .hero-img {
   position: relative;
-  height: 94.5vh;
+  height: 95.2vh;
   background-color: black;
   z-index: 0;
 }
@@ -313,6 +313,9 @@ footer {
   justify-content: center;
   margin-top: 6%;
 }
+.register-body .item {
+  text-decoration: none;
+}
 
 .login-body {
   background-color: rgba(0, 0, 0, 0.2);
@@ -324,7 +327,6 @@ footer {
   align-items: center;
   margin-top: 10%;
 }
-.login-body .remeber-password {
-  text-align: start;
+.login-body .item {
   text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

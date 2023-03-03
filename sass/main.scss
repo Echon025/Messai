@@ -75,7 +75,7 @@ header {
 
 	.hero-img {
 		position: relative;
-		height: 94.5vh;
+		height: 95.2vh;
 		background-color: $black;
 		z-index: 0;
 	}
@@ -312,6 +312,10 @@ footer {
 		justify-content: center;
 		margin-top: 6%;
 	}
+	.item{
+		text-decoration: none;
+		
+	}
 }
 
 // login
@@ -322,12 +326,9 @@ footer {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-
 		margin-top: 10%;
 	}
-	.remeber-password{
-		text-align: start;
+	.item{
 		text-decoration: none;
-		
 	}
 }
