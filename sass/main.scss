@@ -76,23 +76,13 @@ header {
 	.hero-img {
 		position: relative;
 		height: 95.2vh;
-		background-color: $black;
-		z-index: 0;
 	}
 
 	.hero-shadow {
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		background-image: linear-gradient(
-			to bottom,
-			lightgrey 0%,
-			lightgrey 1%,
-			#e0e0e0 26%,
-			#efefef 48%,
-			#d9d9d9 75%,
-			#bcbcbc 100%
-		);
+		background-color: rgba(255, 255, 255, 2);
 		z-index: -1;
 	}
 
@@ -106,7 +96,7 @@ header {
 		z-index: 5;
 	}
 
-	.btn-outline-light {
+	.ut {
 		text-transform: uppercase;
 	}
 }
@@ -163,11 +153,10 @@ header {
 	color: black;
 }
 
-.btn-outline-secondary,
+.btn-outline-primary,
 .btn-list {
 	border-radius: 1.5rem;
 }
-
 
 .button-size {
 	margin: auto;
@@ -286,39 +275,34 @@ footer {
 	}
 }
 @media (max-width: 1350px) {
-	.bgc-menu{
+	.bgc-menu {
 		position: relative;
 		top: 20%;
 	}
-	
 }
 @media (max-width: 1150px) {
-	.bgc-menu{
+	.bgc-menu {
 		position: relative;
 		top: 40%;
 	}
-	
 }
 @media (max-width: 900px) {
-	.bgc-menu{
+	.bgc-menu {
 		position: relative;
 		top: 60%;
 	}
-	
 }
 @media (max-width: 600px) {
-	.bgc-menu{
+	.bgc-menu {
 		position: relative;
 		top: 80%;
 	}
-	
 }
 @media (max-width: 350px) {
-	.bgc-menu{
+	.bgc-menu {
 		position: relative;
 		top: 100%;
 	}
-	
 }
 @media (max-width: 770px) {
 	.btn-submit {
@@ -335,92 +319,92 @@ footer {
 	}
 }
 @media (max-width: 1500px) {
-	.button-style-log{
-	position: relative;
-	left: 81%;
-}
+	.button-style-log {
+		position: relative;
+		left: 81%;
+	}
 }
 @media (max-width: 1400px) {
-	.button-style-log{
-	position: relative;
-	left: 79%;
-}
+	.button-style-log {
+		position: relative;
+		left: 79%;
+	}
 }
 @media (max-width: 1250px) {
-	.button-style-log{
-	position: relative;
-	left: 75%;
-}
+	.button-style-log {
+		position: relative;
+		left: 75%;
+	}
 }
 @media (max-width: 1050px) {
-	.button-style-log{
-	position: relative;
-	left: 70%;
-}
+	.button-style-log {
+		position: relative;
+		left: 70%;
+	}
 }
 @media (max-width: 900px) {
-	.button-style-log{
-	position: relative;
-	left: 65%;
-}
+	.button-style-log {
+		position: relative;
+		left: 65%;
+	}
 }
 @media (max-width: 750px) {
-	.button-style-log{
-	position: relative;
-	left: 60%;
-}
+	.button-style-log {
+		position: relative;
+		left: 60%;
+	}
 }
 @media (max-width: 650px) {
-	.button-style-log{
-	position: relative;
-	left: 52%;
-}
+	.button-style-log {
+		position: relative;
+		left: 52%;
+	}
 }
 @media (max-width: 550px) {
-	.button-style-log{
-	position: relative;
-	left: 48%;
-}
+	.button-style-log {
+		position: relative;
+		left: 48%;
+	}
 }
 @media (max-width: 500px) {
-	.button-style-log{
-	position: relative;
-	left: 43%;
-}
+	.button-style-log {
+		position: relative;
+		left: 43%;
+	}
 }
 @media (max-width: 450px) {
-	.button-style-log{
-	position: relative;
-	left: 36%;
-}
+	.button-style-log {
+		position: relative;
+		left: 36%;
+	}
 }
 @media (max-width: 400px) {
-	.button-style-log{
-	position: relative;
-	left: 27%;
-}
+	.button-style-log {
+		position: relative;
+		left: 27%;
+	}
 }
 @media (max-width: 350px) {
-	.button-style-log{
-	position: relative;
-	left: 16%;
-}
+	.button-style-log {
+		position: relative;
+		left: 16%;
+	}
 }
 @media (max-width: 300px) {
-	.button-style-log{
-	position: relative;
-	left: 10%;
-}
+	.button-style-log {
+		position: relative;
+		left: 10%;
+	}
 }
 @media (max-width: 280px) {
-	.button-style-log{
-	position: relative;
-	left: 5%;
-}
+	.button-style-log {
+		position: relative;
+		left: 5%;
+	}
 }
 // register
 .register-body {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(255, 255, 255, 0.2);
 	.fl-name {
 		text-align: center;
 	}
@@ -445,17 +429,17 @@ footer {
 	.item {
 		text-decoration: none;
 	}
-	.link-transform{
+	.link-transform {
 		color: black;
 	}
-	.link-transform:hover{
+	.link-transform:hover {
 		color: royalblue;
 	}
 }
 
 // login
 .login-body {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(255, 255, 255, 0.2);
 	.menu-login {
 		display: flex;
 		flex-direction: column;
@@ -479,10 +463,10 @@ footer {
 		);
 		border-radius: 7%;
 	}
-	.link-transform{
+	.link-transform {
 		color: black;
 	}
-	.link-transform:hover{
+	.link-transform:hover {
 		color: royalblue;
 	}
 }
