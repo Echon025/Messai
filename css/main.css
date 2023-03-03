@@ -202,7 +202,7 @@ header .ut {
 .button-size {
   margin: auto;
   margin-left: 1%;
-  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  background-color: #fff;
   z-index: 5;
 }
 
@@ -220,7 +220,7 @@ header .ut {
 
 .button-style-log {
   color: black;
-  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  background-color: #fff;
 }
 
 nav {
@@ -234,7 +234,7 @@ nav {
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   background: #c9ccd3;
-  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  background-color: #fff;
 }
 
 .button-style-log {
@@ -423,7 +423,7 @@ footer {
   }
 }
 .register-body {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #fff;
 }
 .register-body .fl-name {
   text-align: center;
@@ -435,7 +435,7 @@ footer {
 }
 .register-body .register-form {
   border: #bcbcbc 2px solid;
-  background-image: linear-gradient(to left, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  background-color: #fff;
   border-radius: 7%;
 }
 .register-body .item {
@@ -463,7 +463,7 @@ footer {
 }
 .login-body .login-form {
   border: #bcbcbc 2px solid;
-  background-image: linear-gradient(to left, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  background-color: #fff;
   border-radius: 7%;
 }
 .login-body .link-transform {

@@ -162,15 +162,7 @@ header {
 .button-size {
 	margin: auto;
 	margin-left: 1%;
-	background-image: linear-gradient(
-		to bottom,
-		lightgrey 0%,
-		lightgrey 1%,
-		#e0e0e0 26%,
-		#efefef 48%,
-		#d9d9d9 75%,
-		#bcbcbc 100%
-	);
+	background-color: #fff;
 	z-index: 5;
 }
 
@@ -185,15 +177,7 @@ header {
 }
 .button-style-log {
 	color: black;
-	background-image: linear-gradient(
-		to bottom,
-		lightgrey 0%,
-		lightgrey 1%,
-		#e0e0e0 26%,
-		#efefef 48%,
-		#d9d9d9 75%,
-		#bcbcbc 100%
-	);
+	background-color: #fff;
 }
 nav {
 	font-size: 80%;
@@ -205,15 +189,7 @@ nav {
 	border-bottom-left-radius: 2rem;
 	border-bottom-right-radius: 2rem;
 	background: #c9ccd3;
-	background-image: linear-gradient(
-		to bottom,
-		lightgrey 0%,
-		lightgrey 1%,
-		#e0e0e0 26%,
-		#efefef 48%,
-		#d9d9d9 75%,
-		#bcbcbc 100%
-	);
+	background-color: #fff;
 }
 .button-style-log {
 	position: relative;
@@ -241,6 +217,7 @@ footer {
 	left: 84%;
 }
 .link-nav {
+	
 	list-style: none;
 	text-decoration: none;
 	color: black;
@@ -401,7 +378,7 @@ footer {
 }
 // register
 .register-body {
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: #fff;
 	.fl-name {
 		text-align: center;
 	}
@@ -412,15 +389,7 @@ footer {
 	}
 	.register-form {
 		border: #bcbcbc 2px solid;
-		background-image: linear-gradient(
-			to left,
-			lightgrey 0%,
-			lightgrey 1%,
-			#e0e0e0 26%,
-			#efefef 48%,
-			#d9d9d9 75%,
-			#bcbcbc 100%
-		);
+		background-color: #fff;
 		border-radius: 7%;
 	}
 	.item {
@@ -449,15 +418,7 @@ footer {
 	}
 	.login-form {
 		border: #bcbcbc 2px solid;
-		background-image: linear-gradient(
-			to left,
-			lightgrey 0%,
-			lightgrey 1%,
-			#e0e0e0 26%,
-			#efefef 48%,
-			#d9d9d9 75%,
-			#bcbcbc 100%
-		);
+		background-color: #fff;
 		border-radius: 7%;
 	}
 	.link-transform {
