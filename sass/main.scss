@@ -297,6 +297,90 @@ footer {
 		border-radius: 1.5rem;
 	}
 }
+@media (max-width: 1500px) {
+	.button-style-log{
+	position: relative;
+	left: 81%;
+}
+}
+@media (max-width: 1400px) {
+	.button-style-log{
+	position: relative;
+	left: 79%;
+}
+}
+@media (max-width: 1250px) {
+	.button-style-log{
+	position: relative;
+	left: 75%;
+}
+}
+@media (max-width: 1050px) {
+	.button-style-log{
+	position: relative;
+	left: 70%;
+}
+}
+@media (max-width: 900px) {
+	.button-style-log{
+	position: relative;
+	left: 65%;
+}
+}
+@media (max-width: 750px) {
+	.button-style-log{
+	position: relative;
+	left: 60%;
+}
+}
+@media (max-width: 650px) {
+	.button-style-log{
+	position: relative;
+	left: 52%;
+}
+}
+@media (max-width: 550px) {
+	.button-style-log{
+	position: relative;
+	left: 48%;
+}
+}
+@media (max-width: 500px) {
+	.button-style-log{
+	position: relative;
+	left: 43%;
+}
+}
+@media (max-width: 450px) {
+	.button-style-log{
+	position: relative;
+	left: 36%;
+}
+}
+@media (max-width: 400px) {
+	.button-style-log{
+	position: relative;
+	left: 27%;
+}
+}
+@media (max-width: 350px) {
+	.button-style-log{
+	position: relative;
+	left: 16%;
+}
+}
+@media (max-width: 300px) {
+	.button-style-log{
+	position: relative;
+	left: 10%;
+}
+}
+@media (max-width: 280px) {
+	.button-style-log{
+	position: relative;
+	left: 5%;
+}
+}
 // register
 .register-body {
 	background-color: rgba(0, 0, 0, 0.2);
@@ -309,8 +393,9 @@ footer {
 		margin-top: 6%;
 	}
 	.register-form {
+		border: #bcbcbc 2px solid;
 		background-image: linear-gradient(
-			to bottom,
+			to left,
 			lightgrey 0%,
 			lightgrey 1%,
 			#e0e0e0 26%,
@@ -339,14 +424,15 @@ footer {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 10%;
+		margin-top: 15%;
 	}
 	.item {
 		text-decoration: none;
 	}
 	.login-form {
+		border: #bcbcbc 2px solid;
 		background-image: linear-gradient(
-			to bottom,
+			to left,
 			lightgrey 0%,
 			lightgrey 1%,
 			#e0e0e0 26%,
