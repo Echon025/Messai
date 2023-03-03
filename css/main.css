@@ -202,7 +202,7 @@ header .btn-outline-light {
 
 .button-size {
   margin: auto;
-  margin-left: 80%;
+  margin-left: 1%;
   background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
 }
 
@@ -214,14 +214,8 @@ header .btn-outline-light {
   list-style-type: none;
 }
 
-.sign-in {
-  width: 100%;
-  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
-}
-
 .style-btn {
   width: 100%;
-  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
 }
 
 .button-style-log {
@@ -233,7 +227,6 @@ nav {
   font-size: 80%;
   position: relative;
   margin-top: 2%;
-  right: 2%;
 }
 
 .bgc-menu {
@@ -262,6 +255,11 @@ footer {
   position: relative;
   width: 100%;
   top: -2.8%;
+}
+
+.button-register {
+  position: relative;
+  left: 84%;
 }
 
 @media (min-width: 375px) {
