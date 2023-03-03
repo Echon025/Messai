@@ -314,10 +314,17 @@ footer {
   margin-top: 6%;
 }
 .register-body .register-form {
-  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  border-radius: 7%;
 }
 .register-body .item {
   text-decoration: none;
+}
+.register-body .link-transform {
+  color: black;
+}
+.register-body .link-transform:hover {
+  color: royalblue;
 }
 
 .login-body {
@@ -334,5 +341,12 @@ footer {
   text-decoration: none;
 }
 .login-body .login-form {
-  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+  background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  border-radius: 7%;
+}
+.login-body .link-transform {
+  color: black;
+}
+.login-body .link-transform:hover {
+  color: royalblue;
 }/*# sourceMappingURL=main.css.map */
