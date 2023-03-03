@@ -253,6 +253,15 @@ footer {
 	position: relative;
  	left: 84%;
 }
+.link-nav{
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+.link-nav:hover{
+	color: black;
+
+}
 @media (min-width: 375px) {
 	header {
 		h1 {
@@ -291,4 +300,12 @@ footer {
 		margin-left: 1%;
 		border-radius: 1.5rem;
 	}
+}
+// register
+.register-body{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+// login
+.login-body{
+	background-color: rgba(0, 0, 0, 0.8);
 }

@@ -262,6 +262,16 @@ footer {
   left: 84%;
 }
 
+.link-nav {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.link-nav:hover {
+  color: black;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 36px;
@@ -291,4 +301,11 @@ footer {
     margin-left: 1%;
     border-radius: 1.5rem;
   }
+}
+.register-body {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.login-body {
+  background-color: rgba(0, 0, 0, 0.8);
 }/*# sourceMappingURL=main.css.map */
