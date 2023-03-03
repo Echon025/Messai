@@ -303,12 +303,12 @@ footer {
   }
 }
 .register-body {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .register-body .fl-name {
   text-align: center;
 }
 
 .login-body {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=main.css.map */
