@@ -307,9 +307,27 @@ footer {
 	.fl-name{
 		text-align: center;
 	}
+	.menu-register{
+		display:flex;
+		justify-content: center;
+		margin-top: 6%;
+	}
 }
 
 // login
 .login-body{
 	background-color: rgba(0, 0, 0, 0.2);
+	.menu-login{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		margin-top: 10%;
+	}
+	.remeber-password{
+		text-align: start;
+		text-decoration: none;
+		
+	}
 }

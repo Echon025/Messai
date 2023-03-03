@@ -308,7 +308,23 @@ footer {
 .register-body .fl-name {
   text-align: center;
 }
+.register-body .menu-register {
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+}
 
 .login-body {
   background-color: rgba(0, 0, 0, 0.2);
+}
+.login-body .menu-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.login-body .remeber-password {
+  text-align: start;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
