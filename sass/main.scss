@@ -153,6 +153,7 @@ header {
 	color: black;
 }
 
+.border-primary,
 .btn-outline-primary,
 .btn-list {
 	border-radius: 1.5rem;
@@ -221,6 +222,10 @@ nav {
 		#d9d9d9 75%,
 		#bcbcbc 100%
 	);
+}
+.search-text{
+	text-align: start;
+	color: black;
 }
 .span-tyle {
 	background-image: linear-gradient(

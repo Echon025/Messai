@@ -193,6 +193,7 @@ header .ut {
   color: black;
 }
 
+.border-primary,
 .btn-outline-primary,
 .btn-list {
   border-radius: 1.5rem;
@@ -244,6 +245,11 @@ nav {
 
 .style-btn-ul {
   background-image: linear-gradient(to bottom, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+.search-text {
+  text-align: start;
+  color: black;
 }
 
 .span-tyle {
