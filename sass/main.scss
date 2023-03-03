@@ -23,7 +23,7 @@ h2 {
 	color: $main-color;
 }
 nav {
-	display: flex;
+	display: inline-block;
 	flex-direction: row-reverse;
 	text-transform: uppercase;
 	transition: background-color 0.6s;
@@ -306,12 +306,13 @@ footer {
 	}
 }
 
-@media (max-width: 540px) {
+@media (max-width: 770px) {
 	.btn-submit {
 		width: 40%;
 		margin-top: 2%;
-		margin-right: 5%;
+		margin-right: 2%;
 		border-radius: 1.5rem;
+		
 	}
 	.btn-reset {
 		width: 40%;
@@ -320,51 +321,3 @@ footer {
 		border-radius: 1.5rem;
 	}
 }
-// @media (max-width: 1700px) {
-// 	.menu {
-// 		margin-left: 87%;
-// 		font-size: 87%;
-// 	}
-// 	.button-size {
-// 		font-size: 100%;
-// 	}
-// }
-// @media (max-width: 1600px) {
-// 	.menu {
-// 		margin-left: 85%;
-// 		font-size: 85%;
-// 	}
-// }
-// @media (max-width: 1300px) {
-// 	.menu {
-// 		margin-left: 80%;
-// 		font-size: 80%;
-// 	}
-// }
-// @media (max-width: 900px) {
-// 	.menu {
-// 		margin-left: 70%;
-// 		font-size: 70%;
-// 	}
-// 	.button-size {
-// 		font-size: 90%;
-// 	}
-// }
-// @media (max-width: 600px) {
-// 	.menu {
-// 		margin-left: 70%;
-// 		font-size: 60%;
-// 	}
-// 	@media (max-width: 400px) {
-// 		.menu {
-// 			margin-left: 65%;
-// 			font-size: 60%;
-// 		}
-// 	}
-// 	@media (max-width: 350px) {
-// 		.menu {
-// 			margin-left: 40%;
-// 			font-size: 60%;
-// 		}
-// 	}
-// }

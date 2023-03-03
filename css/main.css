@@ -65,7 +65,7 @@ h2 {
 }
 
 nav {
-  display: flex;
+  display: inline-block;
   flex-direction: row-reverse;
   text-transform: uppercase;
   transition: background-color 0.6s;
@@ -280,11 +280,11 @@ footer {
     font-size: 20px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 770px) {
   .btn-submit {
     width: 40%;
     margin-top: 2%;
-    margin-right: 5%;
+    margin-right: 2%;
     border-radius: 1.5rem;
   }
   .btn-reset {
