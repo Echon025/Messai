@@ -304,7 +304,11 @@ footer {
 // register
 .register-body{
 	background-color: rgba(0, 0, 0, 0.8);
+	.fl-name{
+		text-align: center;
+	}
 }
+
 // login
 .login-body{
 	background-color: rgba(0, 0, 0, 0.8);
