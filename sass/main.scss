@@ -82,7 +82,7 @@ header {
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		background-color: #fff;
+		background-color: $white;
 		z-index: -1;
 	}
 
@@ -162,7 +162,7 @@ header {
 .button-size {
 	margin: auto;
 	margin-left: 1%;
-	background-color: #fff;
+	background-color: $white;
 	z-index: 5;
 }
 
@@ -177,7 +177,7 @@ header {
 }
 .button-style-log {
 	color: black;
-	background-color: #fff;
+	background-color: $white;
 }
 nav {
 	font-size: 80%;
@@ -196,14 +196,14 @@ nav {
 	text-transform: uppercase;
 }
 .style-btn-ul {
-	background-color: #fff;
+	background-color: $white;
 }
 .search-text{
 	text-align: start;
 	color: black;
 }
 .span-tyle {
-	background-color: #fff;
+	background-color: $white;
 	border-radius: 15%;
 }
 footer {
@@ -377,7 +377,7 @@ footer {
 }
 // register
 .register-body {
-	background-color: #fff;
+	background-color: $white;
 	.fl-name {
 		text-align: center;
 	}
