@@ -434,7 +434,7 @@ footer {
 }
 .register-body .register-form {
   border: #bcbcbc 2px solid;
-  background-color: #fff;
+  background-color: snow;
   border-radius: 7%;
 }
 .register-body .item {
@@ -448,7 +448,7 @@ footer {
 }
 
 .login-body {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgb(255, 255, 255);
 }
 .login-body .menu-login {
   display: flex;
@@ -462,7 +462,7 @@ footer {
 }
 .login-body .login-form {
   border: #bcbcbc 2px solid;
-  background-color: #fff;
+  background-color: snow;
   border-radius: 7%;
 }
 .login-body .link-transform {
